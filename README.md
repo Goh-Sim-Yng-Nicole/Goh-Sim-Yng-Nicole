@@ -1,5 +1,5 @@
 <div align="center">
-<h3><code>nicole@github</code></h3>
+<h3><code>nicole@github ~ $whoami</code></h3>
 <table>
   <tr>
     <td valign="top"><img src="./nicole-ascii.svg" width="370" alt="ASCII portrait" /></td>
