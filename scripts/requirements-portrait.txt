@@ -1,0 +1,10 @@
+# Portrait pipeline only -- run locally, by hand, when the source photo changes:
+#   pip install -r scripts/requirements-portrait.txt
+#   python scripts/prep_photo.py profile_img/profile.png
+#   python scripts/make_ascii_svg.py
+# Deliberately NOT installed by the daily workflow (rembg pulls onnxruntime,
+# which is ~200MB and has nothing to do with the contribution graph).
+pillow
+numpy
+opencv-python
+rembg
