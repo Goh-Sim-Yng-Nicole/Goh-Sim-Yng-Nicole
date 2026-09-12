@@ -25,17 +25,14 @@ OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "info-card.
 # (label, value) pairs, rendered in order. Labels are padded to the width of
 # the longest one automatically, so you can add/remove rows freely.
 CARD = [
-    ("OS",         "Windows 11 · WSL2 (Ubuntu)"),
     ("Host",       f"github.com/{USERNAME}"),
     ("Kernel",     "Python 3.11 · Node 20"),
-    ("Shell",      "PowerShell · bash"),
     ("Editor",     "VS Code · Jupyter"),
     ("Languages",  "Python, JavaScript, TypeScript, SQL"),
-    ("Frameworks", "React, Next.js, FastAPI"),
     ("Data/ML",    "pandas, NumPy, scikit-learn"),
     ("Cloud",      "Docker, GitHub Actions"),
-    ("Learning",   "systems design, LLM tooling"),
-    ("Currently",  "building things that shouldn't work yet"),
+    ("Learning",   "systems design, LLM tooling, Agentic AI"),
+    ("Currently",  "studying in Singapore Management University"),
     ("Pronouns",   "she/her"),
 ]
 # --------------------------------------------------------------------------
